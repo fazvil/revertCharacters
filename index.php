@@ -28,10 +28,3 @@ function revertCharacters($str) {
 
   return implode(' ', $result);
 }
-
-$result = revertCharacters("Привет! Давно не виделись.");
-echo $result;
-
-function d($data) {
-  echo "<pre>" . print_r($data, 1) . "</pre>";
-}
